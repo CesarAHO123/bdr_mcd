@@ -3,6 +3,7 @@
 ### Describir una base de datos y sus relaciones de manera no estructurada
 
 Para la realización de las practicas de este curso se hara uso de la base de datos de *IMDB* en la cual podemos encontrar información sobre películas, actores, directores y más.
+
 [IMDB DATASET](https://developer.imdb.com/non-commercial-datasets/)
 
 ### Investigar distintos SGBD. Elegir uno y describirlo ###
@@ -19,6 +20,6 @@ Sus funciones pricipales son:
 
 
 
-###Fuentes###
+### Fuentes. ###
 - [Platzi](https://platzi.com/blog/que-es-postgresql/)
 
