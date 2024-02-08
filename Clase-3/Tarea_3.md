@@ -20,5 +20,9 @@
 ![Diagrama](Diagrama_Relacional.png "Diagrama")
 
 ### Operaciones.
-#### Títulos con Rating Mayor a 4.4
-\[ \pi_{\text{title}} \left( \sigma_{\text{averageRating} > 4.4}(\text{title.ratings} \bowtie \text{title.basics}) \right) \]
+#### Títulos con Rating Mayor a 4.4 y numero de votos mayor a 5000
+- $\pi$<sub>title, language</sub>(($\sigma$(average>4.4) $\hat{}$ (numVotes>5000))(Akas X Ratings))
+#### Titulos de la categoria de terror en los que participe 'Brad Pitt'
+- $\pi$<sub>title</sub>(($\sigma$(genre='Terror') $\hat{}$ (name='Brad Pitt'))(Akas X Principals X Basics))
+#### Episodios de la Serie 'Black Mirror' Escritos por 'Charlie Brooker'
+- $\pi$<sub>title,season,number</sub>(($\sigma$(title='Black Mirror') $\hat{}$ (writer='Charlie Brooker'))(Akas X Crew X Episode))
